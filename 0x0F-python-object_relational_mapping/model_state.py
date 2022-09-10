@@ -5,6 +5,7 @@ from sqlalchemy import Column, String, Integer
 
 Base = declarative_base()
 
+
 class State(Base):
     """ Define a class State to be linked to db table """
     __tablename__ = 'states'
