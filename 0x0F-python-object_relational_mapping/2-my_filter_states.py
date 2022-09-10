@@ -17,3 +17,4 @@ if __name__ == "__main__":
                WHERE states.name = \'{}\'\
                ORDER BY states.id ASC".format(sys.argv[4]))
     [print(state) for state in c.fetchall()]
+    
